@@ -1,0 +1,111 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+  background: #0f1116;
+}
+body, span, input, select, textarea {
+  color: #555555;
+  font-family: "Raleway", sans-serif;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.65em;
+}
+a {
+  color: #d84780;
+  text-decoration: underline;
+}
+p {
+  line-height: 2em;
+  margin: 0 0 2em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-family: "Raleway", sans-serif;
+  font-weight: 700;
+}
+h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
+    color: inherit;
+    text-decoration: none;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.25em;
+}
+
+/* Header */
+header{
+  background-color: #0f1116;
+  height: 55px;
+}
+.header_text h1{
+  margin-left: 12px;
+  padding: 10px;
+  margin: 13px;
+  text-align: left;
+  font-size: 18px;
+  font-family: "Raleway", sans-serif;
+}
+
+/* Banner */
+.banner{
+  height: 1800px;
+  background-image: url("images/bg.jpg");
+  background-repeat: repeat;
+  text-align: center;
+  font-family: "FontAwesome", sans-serif;
+  color: #fff;
+  padding: 80px 0;
+  margin-bottom: 25px;
+
+}
+.banner a{
+  color: #fff;
+}
+.banner p{
+  font-size: 26px;
+  line-height: 50px;
+  width: 60%;
+	display: inline-block;
+}
+
+
+/* Form */
+form {
+  width: 55%;
+  margin: 0em auto;
+}
+.form h2{
+  font-size: 50px;
+  margin: 5px;
+  padding: 4px;
+}
+.form span{
+  font-size: 26px;
+  color: #fff;
+  padding: 15px;
+}
+.form{
+	background-color: #f4428c;
+	padding: 100px 0;
+	text-align: center;
+}
+input, textarea{
+	width: 100%;
+	font-size: 18px;
+	border: 2px solid #fff;
+	border-radius: 8px;
+	text-align: center;
+	margin-bottom: 20px;
+	padding: 10px;
+  margin: 10px;
+}
+textarea {
+  min-height: 14em;
+}
