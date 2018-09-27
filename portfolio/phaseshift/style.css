@@ -1,84 +1,90 @@
-* {
-	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
+
+
+h1, h2, p, a{
+  margin: 0;
+  padding: 0;
+  color: inherit;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
 }
-body {
-  background: #0f1116;
+h2{
+  color: #fff;
 }
-body, span, input, select, textarea {
+span{
   color: #555555;
-  font-family: "Raleway", sans-serif;
-  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: 12pt;
   font-weight: 300;
   line-height: 1.65em;
 }
-a {
-  color: #d84780;
-  text-decoration: underline;
-}
-p {
-  line-height: 2em;
+ul{
   margin: 0 0 2em 0;
 }
-h1, h2, h3, h4, h5, h6 {
-  margin: 0;
-  padding: 0;
-  color: #fff;
-  font-family: "Raleway", sans-serif;
-  font-weight: 700;
-}
-h1 a, h2 a, h3 a, h4 a, h5 a, h6 a{
-    color: inherit;
-    text-decoration: none;
-}
-h2 {
-  font-size: 1.5em;
-}
-h3 {
-  font-size: 1.25em;
-}
-
-/* Header */
+/* HEADER */
 header{
-  background-color: #0f1116;
-  height: 55px;
-}
-.header_text h1{
-  margin-left: 12px;
-  padding: 10px;
-  margin: 13px;
-  text-align: left;
-  font-size: 18px;
-  font-family: "Raleway", sans-serif;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #0F1116;
+  color: #fff;
+  padding: 0.4em;
 }
 
-/* Banner */
-.banner{
-  height: 1800px;
-  background-image: url("images/bg.jpg");
-  background-repeat: repeat;
+/* MAIN */
+main{
+  padding-top: 4em;
+  padding-bottom: 2em;
+  background: url("images/bg.jpg") no-repeat center top;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.container-text{
+  width: 67%;
   text-align: center;
-  font-family: "FontAwesome", sans-serif;
-  color: #fff;
-  padding: 80px 0;
-  margin-bottom: 25px;
-
-}
-.banner a{
   color: #fff;
 }
-.banner p{
-  font-size: 26px;
-  line-height: 50px;
-  width: 60%;
-	display: inline-block;
+.container-text p{
+  font-size: 1.75em;
+  line-height: 1.75em;
 }
-
-
-/* Form */
+.container-text a{
+  text-decoration: underline;
+}
+.card-deck{
+  width: 74%;
+  padding-top: 3.5em;
+  text-align: center;
+}
+/* BUTTON */
+.btn, .btn-big, .btn-mes{
+  background: #d84780;
+  border-radius: 6px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  display: inline-block;
+  font-weight: 600;
+  color: #FFF !important;
+}
+.btn:hover, .btn-big:hover, .btn-mes:hover{
+  background: #e1719d;
+  color: white;
+}
+.btn, .btn-mes{
+  padding: 0.75em 1.5em;
+  font-size: 1.2em;
+}
+.btn-big{
+  padding: 0.80em 2em;
+  font-size: 1.6em;
+}
+/* FOOTER */
 form {
-  width: 55%;
+  width: 70%;
   margin: 0em auto;
 }
 .form h2{
@@ -97,7 +103,7 @@ form {
 	text-align: center;
 }
 input, textarea{
-	width: 100%;
+  width: 100%;
 	font-size: 18px;
 	border: 2px solid #fff;
 	border-radius: 8px;
@@ -106,6 +112,9 @@ input, textarea{
 	padding: 10px;
   margin: 10px;
 }
-textarea {
+textarea{
   min-height: 14em;
+}
+input{
+  line-height: 1em;
 }
