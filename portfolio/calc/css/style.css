@@ -1,0 +1,12 @@
+.calc{
+  border: 3px solid #c4e3cb;
+  padding: 10px 20px;
+  margin-top: 30px;
+}
+.itogo span{
+  font-size: 40px;
+  color: #8aae92;
+}
+.vizitka{
+  display: none;
+}
