@@ -32,8 +32,8 @@ header{
 
 /* MAIN */
 main{
-  padding-top: 4em;
-  padding-bottom: 2em;
+  padding-top: 40px;
+  padding-bottom: 60px;
   background: url("images/bg.jpg") no-repeat center top;
   background-size: cover;
   background-attachment: fixed;
@@ -54,6 +54,23 @@ main{
   width: 74%;
   padding-top: 3.5em;
   text-align: center;
+  padding-top: 20px;
+  padding-bottom: 50px;
+}
+.card{
+  border: none;
+}
+.row{
+  padding: 10px;
+}
+.col{
+  color: white;
+}
+.col h2{
+  padding-bottom: 20px;
+}
+.row i{
+  color: white;
 }
 /* BUTTON */
 .btn, .btn-big, .btn-mes{
@@ -82,7 +99,7 @@ main{
   padding: 0.80em 2em;
   font-size: 1.6em;
 }
-/* FOOTER */
+/* FOOTER FORM */
 form {
   width: 70%;
   margin: 0em auto;
@@ -117,4 +134,30 @@ textarea{
 }
 input{
   line-height: 1em;
+}
+
+/* FOOTER */
+
+.copyright{
+  background: #0f1116;
+  color: #ddd;
+  color: rgba(255, 255, 255, 0.2) !important;
+  text-align: center;
+  display: block;
+  padding: 3em 0em;
+}
+.copyright a{
+  text-decoration: none;
+  color: #ddd;
+  color: rgba(255, 255, 255, 0.4) !important;
+}
+.social{
+  display: inline-block;
+}
+.social i{
+  padding: 10px;
+  padding-bottom: 50px;
+}
+.social i:hover{
+  color: white;
 }
